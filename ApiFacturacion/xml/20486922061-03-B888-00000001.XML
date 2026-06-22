@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                    <ext:ExtensionContent/>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+            <cbc:CustomizationID>2.0</cbc:CustomizationID>
+            <cbc:ID>B888-00000001</cbc:ID>
+            <cbc:IssueDate>2025-06-16</cbc:IssueDate>
+            <cbc:IssueTime>00:00:00</cbc:IssueTime>
+            <cbc:DueDate>2025-06-16</cbc:DueDate>
+            <cbc:InvoiceTypeCode listID="0101">03</cbc:InvoiceTypeCode>
+            <cbc:Note languageLocaleID="1000"><![CDATA[CERO  CON 00/100 SOLES]]></cbc:Note>
+            <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+            <cac:Signature>
+                <cbc:ID>20486922061</cbc:ID>
+                <cbc:Note><![CDATA[Colegio de Psicólogos del Perú]]></cbc:Note>
+                <cac:SignatoryParty>
+                    <cac:PartyIdentification>
+                    <cbc:ID>20486922061</cbc:ID>
+                    </cac:PartyIdentification>
+                    <cac:PartyName>
+                    <cbc:Name><![CDATA[COLEGIO DE PSICOLOGOS DEL PERU CONSEJO DIRECTIVO REGIONAL II JUNIN AYACUCHO HUANCAVELICA APURIMAC]]></cbc:Name>
+                    </cac:PartyName>
+                </cac:SignatoryParty>
+                <cac:DigitalSignatureAttachment>
+                    <cac:ExternalReference>
+                    <cbc:URI>#SIGN-EMPRESA</cbc:URI>
+                    </cac:ExternalReference>
+                </cac:DigitalSignatureAttachment>
+            </cac:Signature>
+            <cac:AccountingSupplierParty>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                    <cbc:ID schemeID="6">20486922061</cbc:ID>
+                    </cac:PartyIdentification>
+                    <cac:PartyName>
+                    <cbc:Name><![CDATA[Colegio de Psicólogos del Perú]]></cbc:Name>
+                    </cac:PartyName>
+                    <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[COLEGIO DE PSICOLOGOS DEL PERU CONSEJO DIRECTIVO REGIONAL II JUNIN AYACUCHO HUANCAVELICA APURIMAC]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                        <cbc:ID>120114</cbc:ID>
+                        <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+                        <cbc:CitySubdivisionName>NONE</cbc:CitySubdivisionName>
+                        <cbc:CityName>HUANCAYO</cbc:CityName>
+                        <cbc:CountrySubentity>JUNIN</cbc:CountrySubentity>
+                        <cbc:District>EL TAMBO</cbc:District>
+                        <cac:AddressLine>
+                            <cbc:Line><![CDATA[ALEJANDRO O DEUSTUA, Huancayo 12004]]></cbc:Line>
+                        </cac:AddressLine>
+                        <cac:Country>
+                            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                        </cac:Country>
+                    </cac:RegistrationAddress>
+                    </cac:PartyLegalEntity>
+                </cac:Party>
+            </cac:AccountingSupplierParty>
+            <cac:AccountingCustomerParty>
+                <cac:Party>
+                    <cac:PartyIdentification>
+                    <cbc:ID schemeID="1">11111111</cbc:ID>
+                    </cac:PartyIdentification>
+                    <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[cliente genérico]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                        <cac:AddressLine>
+                            <cbc:Line><![CDATA[JUNIN]]></cbc:Line>
+                        </cac:AddressLine>
+                        <cac:Country>
+                            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                        </cac:Country>
+                    </cac:RegistrationAddress>
+                    </cac:PartyLegalEntity>
+                </cac:Party>
+            </cac:AccountingCustomerParty><cac:TaxTotal>
+                <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount></cac:TaxTotal>
+            <cac:LegalMonetaryTotal>
+                <cbc:LineExtensionAmount currencyID="PEN">0</cbc:LineExtensionAmount>
+                <cbc:TaxInclusiveAmount currencyID="PEN">0</cbc:TaxInclusiveAmount>
+                <cbc:PayableAmount currencyID="PEN">0</cbc:PayableAmount>
+            </cac:LegalMonetaryTotal><cac:InvoiceLine>
+                    <cbc:ID>1</cbc:ID>
+                    <cbc:InvoicedQuantity unitCode="NIU">2</cbc:InvoicedQuantity>
+                    <cbc:LineExtensionAmount currencyID="PEN">0</cbc:LineExtensionAmount>
+                    <cac:PricingReference>
+                        <cac:AlternativeConditionPrice>
+                        <cbc:PriceAmount currencyID="PEN">0</cbc:PriceAmount>
+                        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+                        </cac:AlternativeConditionPrice>
+                    </cac:PricingReference><cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                    <cac:TaxSubtotal>
+                        <cbc:TaxableAmount currencyID="PEN">0</cbc:TaxableAmount>
+                        <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                        <cac:TaxCategory>
+                            <cbc:Percent>18</cbc:Percent>
+                            <cbc:TaxExemptionReasonCode>30</cbc:TaxExemptionReasonCode>
+                            <cac:TaxScheme>
+                                <cbc:ID>9998</cbc:ID>
+                                <cbc:Name>INA</cbc:Name>
+                                <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+                            </cac:TaxScheme>
+                        </cac:TaxCategory>
+                    </cac:TaxSubtotal></cac:TaxTotal>
+                    <cac:Item>
+                        <cbc:Description><![CDATA[Servicios Generales]]></cbc:Description>
+                        <cac:SellersItemIdentification>
+                        <cbc:ID>90</cbc:ID>
+                        </cac:SellersItemIdentification>
+                    </cac:Item>
+                    <cac:Price>
+                        <cbc:PriceAmount currencyID="PEN">0.00</cbc:PriceAmount>
+                    </cac:Price>
+                </cac:InvoiceLine></Invoice>

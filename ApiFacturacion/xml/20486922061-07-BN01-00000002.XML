@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+                <ext:UBLExtension>
+                <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>aERfKs/TiUfEephcX9u7au0ON4M=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ZFNAewfzmcjb4eB1M9BkV8l9FIKLPA1EWkhI9R9Tf/+FvvIAkElJDqaLHDFFMCSDnXKwqghk4qWEHBBNCUgcWd4DJZCEgclbhObiSwEyVeiGAYUxLU9RP9q1N/7Sso7BvWPnSQ6RC+tdeQSCnrXcoa8b6iumXatVMBoasUwZ9d0l5fZxPngxGe7LQ4XG9pGcSjA20TInlAVl7fUMHoXkIiRtHvz4VJObNbKpn0c4GNybcSZU6uuu9THm0MpHy8iBhVPLRoikziyNR8AmW5/lEMNvynOQc2tcbp31sL+nLdpTeBrjI2YZUdnoaP0hzXxkqPHFLmAukLkKekMbqSng2A==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+                </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+            <cbc:CustomizationID>2.0</cbc:CustomizationID>
+            <cbc:ID>BN01-00000002</cbc:ID>
+            <cbc:IssueDate>2025-06-25</cbc:IssueDate>
+            <cbc:IssueTime>00:00:01</cbc:IssueTime>
+            <cbc:Note languageLocaleID="1000"><![CDATA[]]></cbc:Note>
+            <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+            <cac:DiscrepancyResponse>
+                <cbc:ReferenceID>17-1</cbc:ReferenceID>
+                <cbc:ResponseCode>01</cbc:ResponseCode>
+                <cbc:Description>Anulación de la operación</cbc:Description>
+            </cac:DiscrepancyResponse>
+            <cac:BillingReference>
+                <cac:InvoiceDocumentReference>
+                <cbc:ID>17-1</cbc:ID>
+                <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+                </cac:InvoiceDocumentReference>
+            </cac:BillingReference>
+            <cac:Signature>
+                <cbc:ID>20486922061</cbc:ID>
+                <cbc:Note><![CDATA[Colegio de Psicólogos del Perú]]></cbc:Note>
+                <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>20486922061</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                    <cbc:Name><![CDATA[COLEGIO DE PSICOLOGOS DEL PERU CONSEJO DIRECTIVO REGIONAL II JUNIN AYACUCHO HUANCAVELICA APURIMAC]]></cbc:Name>
+                </cac:PartyName>
+                </cac:SignatoryParty>
+                <cac:DigitalSignatureAttachment>
+                <cac:ExternalReference>
+                    <cbc:URI>#SIGN-EMPRESA</cbc:URI>
+                </cac:ExternalReference>
+                </cac:DigitalSignatureAttachment>
+            </cac:Signature>
+            <cac:AccountingSupplierParty>
+                <cac:Party>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeID="6">20486922061</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                    <cbc:Name><![CDATA[Colegio de Psicólogos del Perú]]></cbc:Name>
+                </cac:PartyName>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[COLEGIO DE PSICOLOGOS DEL PERU CONSEJO DIRECTIVO REGIONAL II JUNIN AYACUCHO HUANCAVELICA APURIMAC]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                        <cbc:ID>120114</cbc:ID>
+                        <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+                        <cbc:CitySubdivisionName>NONE</cbc:CitySubdivisionName>
+                        <cbc:CityName>HUANCAYO</cbc:CityName>
+                        <cbc:CountrySubentity>JUNIN</cbc:CountrySubentity>
+                        <cbc:District>EL TAMBO</cbc:District>
+                        <cac:AddressLine>
+                            <cbc:Line><![CDATA[ALEJANDRO O DEUSTUA, Huancayo 12004]]></cbc:Line>
+                        </cac:AddressLine>
+                        <cac:Country>
+                            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                        </cac:Country>
+                    </cac:RegistrationAddress>
+                </cac:PartyLegalEntity>
+                </cac:Party>
+            </cac:AccountingSupplierParty>
+            <cac:AccountingCustomerParty>
+                <cac:Party>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeID="1">71559545</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[JOSHUA DEIVI ALVAREZ CAJALEON]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                        <cac:AddressLine>
+                            <cbc:Line><![CDATA[-]]></cbc:Line>
+                        </cac:AddressLine>
+                        <cac:Country>
+                            <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                        </cac:Country>
+                    </cac:RegistrationAddress>
+                </cac:PartyLegalEntity>
+                </cac:Party>
+            </cac:AccountingCustomerParty><cac:TaxTotal>
+                <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount><cac:TaxSubtotal>
+                    <cbc:TaxableAmount currencyID="PEN">1</cbc:TaxableAmount>
+                    <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+                    <cac:TaxCategory>
+                        <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">E</cbc:ID>
+                        <cac:TaxScheme>
+                            <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">9997</cbc:ID>
+                            <cbc:Name>EXO</cbc:Name>
+                            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                        </cac:TaxScheme>
+                    </cac:TaxCategory>
+                </cac:TaxSubtotal></cac:TaxTotal>
+            <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="PEN">1</cbc:PayableAmount>
+            </cac:LegalMonetaryTotal><cac:CreditNoteLine>
+                <cbc:ID>0</cbc:ID>
+                <cbc:CreditedQuantity unitCode="NIU">1.00</cbc:CreditedQuantity>
+                <cbc:LineExtensionAmount currencyID="PEN">1</cbc:LineExtensionAmount>
+                <cac:PricingReference>
+                    <cac:AlternativeConditionPrice>
+                        <cbc:PriceAmount currencyID="PEN">1</cbc:PriceAmount>
+                        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+                    </cac:AlternativeConditionPrice>
+                </cac:PricingReference>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                    <cac:TaxSubtotal>
+                        <cbc:TaxableAmount currencyID="PEN">1</cbc:TaxableAmount>
+                        <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                        <cac:TaxCategory>
+                            <cbc:Percent>18</cbc:Percent>
+                            <cbc:TaxExemptionReasonCode>20</cbc:TaxExemptionReasonCode>
+                            <cac:TaxScheme>
+                            <cbc:ID>9997</cbc:ID>
+                            <cbc:Name>EXO</cbc:Name>
+                            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                            </cac:TaxScheme>
+                        </cac:TaxCategory>
+                    </cac:TaxSubtotal>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description><![CDATA[producto prueba]]></cbc:Description>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>91</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="PEN">1.00</cbc:PriceAmount>
+                </cac:Price>
+                </cac:CreditNoteLine></CreditNote>
